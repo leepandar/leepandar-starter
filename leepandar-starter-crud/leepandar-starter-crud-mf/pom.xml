@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.leepandar.starter</groupId>
+        <artifactId>leepandar-starter-crud</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>leepandar-starter-crud-mf</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>CRUD MyBatis Flex ORM</description>
+
+    <dependencies>
+        <!-- 核心模块 -->
+        <dependency>
+            <groupId>com.leepandar.starter</groupId>
+            <artifactId>leepandar-starter-crud-core</artifactId>
+        </dependency>
+
+        <!-- 数据访问模块 - MyBatis Flex -->
+        <dependency>
+            <groupId>com.leepandar.starter</groupId>
+            <artifactId>leepandar-starter-data-mf</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

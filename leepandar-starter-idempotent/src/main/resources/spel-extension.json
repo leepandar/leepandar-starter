@@ -1,0 +1,7 @@
+{
+  "com.leepandar.starter.idempotent.annotation.Idempotent@key":{
+    "method":{
+      "parameters": true
+    }
+  }
+}

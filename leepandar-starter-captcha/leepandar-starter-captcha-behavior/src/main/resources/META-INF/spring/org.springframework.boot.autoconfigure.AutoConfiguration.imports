@@ -1,0 +1,2 @@
+com.leepandar.starter.captcha.behavior.autoconfigure.BehaviorCaptchaAutoConfiguration
+com.leepandar.starter.captcha.behavior.autoconfigure.cache.BehaviorCaptchaCacheAutoConfiguration

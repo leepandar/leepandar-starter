@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.leepandar.starter</groupId>
+        <artifactId>leepandar-starter</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>leepandar-starter-captcha</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>验证码模块</description>
+
+    <modules>
+        <module>leepandar-starter-captcha-behavior</module>
+        <module>leepandar-starter-captcha-graphic</module>
+    </modules>
+
+    <dependencies>
+        <!-- 核心模块 -->
+        <dependency>
+            <groupId>com.leepandar.starter</groupId>
+            <artifactId>leepandar-starter-core</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,3 @@
+com.leepandar.starter.web.autoconfigure.mvc.WebMvcAutoConfiguration
+com.leepandar.starter.web.autoconfigure.cors.CorsAutoConfiguration
+com.leepandar.starter.web.autoconfigure.server.UndertowAutoConfiguration
