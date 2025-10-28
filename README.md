@@ -4,7 +4,7 @@
 
 - 方式一：
 
-如您使用的是 Spring Boot Parent 的方式，则替换 Spring Boot Parent 为 ContiNew Starter。
+如您使用的是 Spring Boot Parent 的方式，则替换 Spring Boot Parent 为 Leepandar Starter。
 
 ```xml
 <parent>
@@ -58,7 +58,7 @@
 
 ```yaml
 --- ### 跨域配置
-continew-starter.web:
+leepandar-starter.web:
   cors:
     enabled: true
     # 配置允许跨域的域名
