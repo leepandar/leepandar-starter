@@ -16,7 +16,7 @@
 
 - 方式二：
 
-如您使用的是引入 Spring Boot Dependencies 的方式，则替换 Spring Boot Dependencies 为 ContiNew Starter Dependencies
+如您使用的是引入 Spring Boot Dependencies 的方式，则替换 Spring Boot Dependencies 为 Leepandar Starter Dependencies
 
 ```xml
 <properties>
